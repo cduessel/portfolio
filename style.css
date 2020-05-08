@@ -18,14 +18,24 @@
         .header{
             margin-top:47px;    
             margin-bottom: 47px;
-            color:rgb(247, 237, 121)
+            color:rgb(247, 237, 121);
+                    }
+
+        #pic{
+            box-shadow: 0px 0px 7px -7px rgb(111, 117, 141);
+            border-radius:3%;
         }
+
         .about-box{
             background-color:white;
-            margin-top: 15px;
+            margin-top: 20px;
             margin-bottom: 47px;
-            padding;10px 10px 47px 10px;
+            padding;20px 10px 47px 10px;
             color:rgb(10, 3, 20)
+        }
+        #about-me{
+            margin-top: 20px;
+            padding-top: 20px;
         }
         .about{
             margin-left:30%;
@@ -33,19 +43,50 @@
                 align-content: center;
                 color:rgb(10, 3, 20);
                 margin-bottom: 47px;
-                                    }
+                clear: both;
+                }
+        .obullet{
+            width: 20%;
+            align-content: center;
+            list-style-type: square;
+            list-style-position: inside;
+        }
+                                   
+
+        #allbullets{
+            align-content: center;
+            clear: both;
+            width: 40%;
+            margin: auto;
+            margin-bottom: 30px;
+            padding-bottom:20px;
+            display: inline-block;
+           
+        }                            
+        .bulletsL{
+            float: left;
+            width:25%;
+           
+        }
+        .bulletsR{
+            float: right;
+            width:25%;
+                    }
         .works{
             margin-top:10px;
             margin-bottom:20px;
+           
             line-height: 4em;
-            color:rgb(247, 237, 121)
+            color:rgb(247, 237, 121);
+            clear: both;
 
         }
         .follow{
             margin-top: 20px;
             margin-bottom: 10px;
             line-height: 4em;
-            color:rgb(247, 237, 121)
+            color:rgb(247, 237, 121);
+            clear: both;
         }
         .footer{
             background-color:rgb(247, 237, 121) ;
